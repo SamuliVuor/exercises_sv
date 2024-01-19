@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/style6.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5: HTML Layouts</title>
+</head>
+<body>
+    <header>
+       
+      <h1>Flex Box Examples</h1>  
+    </header>
+    <nav class="navbar navbar-expand-xl">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html/../..">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse show" id="navbarBasic">
+            <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./exercise1.html">Exercise1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./exercise2.html">Exercise2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./exercise3.html">Exercise3</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./exercise4.html">Exercise4</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  <container>
+    <aside>
+        <h3> sidebar</h3>
+        <h3> sidebar</h3>
+        <h3> sidebar</h3>
+        <h3> sidebar</h3>
+        <h3> sidebar</h3>
+        </aside>
+    
+    <main>
+        <article>
+        <h2>What is HTML</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt in earum sunt nemo saepe maiores provident nam, re
+            pellendus dignissimos magnam nesciunt rerum a eos corporis temporibus 
+            veritatis facere nobis natus.</p>
+        </article>
+        <article>
+        <h2>HTML Elements</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quasi consequuntur mollitia voluptas, sit expedita exercitationem recusandae aspernatur! Deserunt 
+            dolores a perspiciatis accusantium sed, veritatis non consequatur?
+             Cupiditate, optio veritatis.</p>
+            </article>
+            <article>
+        <h2>Block Level Elements</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam consectetur facilis, nesciunt sequi autem saepe veniam vel officia eligendi, labore tenetur,
+             voluptatem porro repellat accusantium molestias similique dolor odit provident?</p>
+            </article>
+    </main>
+</container>
+<table class="table">
+    <thead>
+        <h2>Table Layout </h2>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td colspan="2">Larry the Bird</td>
+        <td>@twitter</td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>Laika</td>
+        <td>the dog</td>
+        <td>@space</td>
+      </tr>
+    </tr>
+      <th scope="row">5</th>
+        <td>John</td>
+        <td>Doe</td>
+        <td>@missing</td>
+    </tr>
+    </tbody>
+  </table>
+
+  <h2>Form layout</h2>
+<form class="row g-3 needs-validation" novalidate="">
+    <div class="col-md-4">
+      <label for="validationCustom01" class="form-label">First name</label>
+      <input type="text" class="form-control" id="validationCustom01" value="Mark" required="">
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label for="validationCustom02" class="form-label">Last name</label>
+      <input type="text" class="form-control" id="validationCustom02" value="Paul" required="">
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label for="validationCustomUsername" class="form-label">Email</label>
+      <div class="input-group has-validation">
+        <span class="input-group-text" id="inputGroupPrepend">@</span>
+        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required="">
+        <div class="invalid-feedback">
+          Please enter email
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-12">
+      <button class="submitb" type="submit">Submit form</button>
+    </div>
+  </form>
+    <footer>
+
+        <h1>Learning Flex @ 2024</h1>
+    </footer>
+</body>
+</html>

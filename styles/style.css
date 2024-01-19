@@ -25,7 +25,7 @@ footer {
     text-align:center;
 }
 #main-header {
-    background-color: blue;
+    background-color: yellow;
     text-align: center;
     padding: 20px;
 }
@@ -38,7 +38,7 @@ footer {
     margin-top:10px;
 }
 .content-article {
-    background-color: purple;
+    background-color:pink;
     border: 1px solid #ddd;
     padding:20px;
     margin-bottom:20px;
